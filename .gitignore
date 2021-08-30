@@ -1,0 +1,5 @@
+# Exclude extracted files
+extract/*
+
+# Include folder
+!extract/.gitkeep 

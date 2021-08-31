@@ -43,6 +43,8 @@ def download_csv(year_: str) -> None:
     with open(os.path.join(DESTINATION, full_file_name), 'wb') as file:
         file.write(response.content)
 
+    file.close()
+
     print(f"{full_file_name} successfully downloaded.")
 
 
